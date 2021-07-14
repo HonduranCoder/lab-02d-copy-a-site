@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	display: grid;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 100px;
+}
+
+ul {
+	display: grid;
+	height: 50px;
+	width: 100%;
+	grid-template-columns: 2fr;
+	grid-auto-flow: column;
+	border: 2px solid;
+	padding: 10px;
+	margin: 10px;
+}
+
+body {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: 1;
+	grid-template-rows: 3;
+}
+
+.ten, .join, .Jon{
+    font-weight: bold;
+}
+
+.Jon{
+    font-size: 23;
+}
+
+.experiences{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.town, .trips{
+    text-decoration: underline;
+}
+
+.gift, .share, .save {
+    font-weight: bold;
+}
+
+.penguin{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+a:link{
+    text-decoration: none;
+    color:black;
+}
+
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+li {
+	list-style-type: none;
+    tec
+	color: black;
+	margin: 0 10px;
+}
+
+.container {
+	display: grid;
+	grid-gap: 20px;
+	align-items: center;
+	justify-items: center;
+}
+
+.gallery img {
+	max-width: 100%;
+}
